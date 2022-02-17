@@ -25,6 +25,7 @@
 
 .card{
     width: 300px;
+    position: relative;
 }
 
 .images{
@@ -34,3 +35,23 @@
     display: block;
 }
 
+.discount{
+    width:50px;
+    height: 20px;
+    background-color: red;
+    position:absolute;
+    bottom: 120px;
+}
+
+.percentage{
+    color: white;
+}
+.bearableness{
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+    color: white;
+}
