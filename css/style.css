@@ -28,6 +28,9 @@
     height: 700px;
     background-color: blue ;
     display: inline-block;
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    position: relative;
 }
 .box3{
     width: 380px;
