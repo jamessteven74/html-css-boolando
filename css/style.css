@@ -1,5 +1,5 @@
 *{
-    /* margin: 0; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -37,6 +37,9 @@
     height: 700px;
     background-color: blue ;
     display: inline-block; 
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    position: relative;
 }
 .discount{
     width: 50px;
@@ -76,4 +79,8 @@
 .heart{
     padding: 20px;
     font-size: 20px;
+}
+
+.line-trought{
+    text-decoration-line: line-through;
 }
